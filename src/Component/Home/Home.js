@@ -17,9 +17,9 @@ const Home = () => {
     return (
         <div>
             <p className='text-3xl my-3'>Find the food you want</p>
-            {/* <p>{meals.length}</p> */}
-            <input onChange={searchFood} className='border border-red-500 px-3 rounded-lg text-2xl' type="text" placeholder='Find Your Food' />
-<div className='grid grid-cols-3 gap-20 my-20 mx-20'>
+            
+            <input onChange={searchFood} className='border-4 border-red-500 px-1 md:px-3 rounded-lg text-xl md:text-2xl' type="text" placeholder='Find Your Food' />
+<div className='grid grid-cols-1 md:grid-cols-3 gap-20 my-20 mx-20'>
     {
     
     meals.map(meal=><Meal key={meal.idMeal} meal={meal}></Meal>)
