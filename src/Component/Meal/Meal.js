@@ -17,7 +17,7 @@ const showDetail =()=>{
             <button className='my-1 px-5 py-2 rounded-xl align-middle justify-center bg-slate-700 text-white text-xl' onClick={showDetail}>
                 Details
             </button>
-            <Link to={'/detail/'+idMeal} className='px-5 py-2 rounded-xl align-middle justify-center bg-red-700 text-white text-xl my-1'>Details</Link>
+{/*             <Link to={'/detail/'+idMeal} className='px-5 py-2 rounded-xl align-middle justify-center bg-red-700 text-white text-xl my-1'>Details</Link> */}
            </div>
         </div>
     );
