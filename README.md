@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Foodie Website
+Using React and React Router and CSS Framework is Tailwind CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project [Live](https://foodie-find-your-food.netlify.app/) here.
+
+Live Link [https://foodie-find-your-food.netlify.app/](https://foodie-find-your-food.netlify.app/)
 
 ## Available Scripts
 
