@@ -22,7 +22,7 @@ const Home = () => {
 <div className='grid grid-cols-1 md:grid-cols-3 gap-20 my-20 mx-20'>
     {
     
-    meals? meals.map(meal=><Meal key={meal.idMeal} meal={meal}></Meal>) : <h1 className='text-3xl text-red-500 col-start-2'>This food is Unavailable. Try another food please.</h1>
+    meals? meals.map(meal=><Meal key={meal.idMeal} meal={meal}></Meal>) : <h1 className='text-3xl text-red-500 md:col-start-2'>This food is Unavailable. Try another food please.</h1>
     }
 </div>
 
